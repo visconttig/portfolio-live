@@ -1,0 +1,26 @@
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  margin: 0 auto;
+
+  padding: 10vh 0;
+}
+
+.first-section {
+  background-color: #04030f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  color: #00ffff;
+}
+
+br {
+  margin-bottom: 10px;
+}
