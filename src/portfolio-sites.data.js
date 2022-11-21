@@ -1,12 +1,18 @@
 const SITES_DATA = [
 {
+    title: "Youtube Clone",
+    image: "images/portfolio-image.png",
+    description: "A Youtube clone web app, with API calls, custom search, and more.",
+    skills: ["React", "REST APIs", "CSS-Flexbox", "Tailwind CSS", "AXIOS"],
+    siteUrl: "https://candid-banoffee-cf5b5e.netlify.app/"
+},
+{
     title: "Crown Clothing",
     image: "images/crwn-clothing.png",
     description: "An e-shop web application with databases, user authentication and more.",
     skills: ["React", "MongoDB", "CSS-Flexbox", "Sass", "CSS", "Javascript"],
     siteUrl: "https://glittering-dieffenbachia-cada1a.netlify.app/"
 },
-
 {
     title: "TinDog",
     image: "images/tin-dog.png",
