@@ -3,7 +3,7 @@ const SITES_DATA = [
     title: "Youtube Clone",
     image: "images/portfolio-image.png",
     description: "A Youtube clone web app, with API calls, custom search, and more.",
-    skills: ["React", "REST APIs", "CSS-Flexbox", "Tailwind CSS", "AXIOS"],
+    skills: ["React", "APIs", "CSS-Flexbox", "Tailwind CSS", "AXIOS"],
     siteUrl: "https://candid-banoffee-cf5b5e.netlify.app/"
 },
 {

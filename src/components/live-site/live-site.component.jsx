@@ -6,8 +6,10 @@ const LiveSite = ({ siteData }) => {
 
   return (
     <>
+      <div className="main-container">
+      <h2 className="title title2">{title}</h2>
       <div className="live-site-container">
-        <h2 className="title"> {title} </h2>
+        {/* <h2 className="title"> {title} </h2> */}
         <div className="image-container">
           <img src={image} />
         </div>
@@ -26,6 +28,7 @@ const LiveSite = ({ siteData }) => {
             SEE LIVE
           </a>
         </button>
+      </div>
       </div>
     </>
   );
