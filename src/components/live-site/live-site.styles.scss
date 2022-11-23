@@ -5,11 +5,9 @@
   scale: none;
   transition: scale 1s ease;
 
-  // background-color: white;
-
   &:hover {
     transition: scale 0.3s ease;
-    scale: 101%;
+    scale: 100%;
 
     .skills-row {
       opacity: 1;
@@ -18,23 +16,43 @@
 
     .see-live-button {
       opacity: 1;
-      transition: opacity 1s ease;
+      transition: opacity 1s;
+      // box-shadow: 0 0 12px #adb5bd;
+      box-shadow: 0 0 12px #00ffff;
     }
 
     .image-container {
-      transition: box-shadow 1s ease;
+      transition: box-shadow, opacity 1s ease;
       box-shadow: 0 0 4px #ced4da;
+      opacity: 0.8;
     }
   }
+
 }
+
+
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4.8rem;
+  background-color: #edf2ff;
+  border-radius: 24px;
+  box-shadow: 0 0 6px #adb5bd;
+
+  &:hover {
+    box-shadow: 0 0 12px #adb5bd;
+  }
+}
+
+
+
 
 .live-site-container:nth-child(odd) {
   flex-direction: row-reverse;
 }
 
-.main-container:last-child {
-  padding-bottom: 0;
-}
 
 
 
@@ -62,26 +80,21 @@
 }
 
 
-.main-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 3.2rem 4.8rem;
-}
+
 
 .skills-row {
   display: flex;
   height: 15%;
   overflow: hidden;
-
+  flex-wrap: wrap;
   opacity: 0;
   transition: opacity 1s ease;
+  gap: 1.2rem;
 }
 
 .skill {
   list-style: none;
   opacity: 0.6;
-
   padding-right: 1rem;
 }
 
@@ -95,12 +108,16 @@
   width: 48%;
   height: 15%;
   font-weight: bolder;
-  background-color: #00ffff;
+  background-color: #364fc7;
   border: none;
   text-transform: uppercase;
+  letter-spacing: 0.2rem;
 
-  transition: opacity 1s ease;
+  transition: opacity, box-shadow 1s ease;
   opacity: 0;
+  border-radius: 24px;
+  box-shadow: 0 0 6px #adb5bd;
+  font-size: 1.4rem;
 }
 
 .image-container {
@@ -113,6 +130,8 @@
 
   border: none;
   box-shadow: 0 0 2px #ced4da;
+  border-radius: 24px;
+  overflow: hidden;
 }
 
 img {
@@ -178,7 +197,7 @@ a:visited {
   .title {
     display: flex;
     position: static;
-    color: white;
+    // color: white;
     opacity: 1;
   }
 
@@ -190,6 +209,7 @@ a:visited {
 
   .skills-row {
     display: flex;
+    opacity: 1;
   }
 
   .live-site-container,

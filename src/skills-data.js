@@ -1,0 +1,37 @@
+const skillsSet = [
+    "Javascript",
+    "React",
+    "MongoDB",
+    "CSS 3",
+    "CSS Flexbox",
+    "CSS Grid",
+    "HTML 5",
+    "Express.js",
+    "Node.js",
+    "NPM",
+    "Yarn",
+    "Bootstrap",
+    "JQuery",
+    "Linux Shell",
+    "Lodash",
+    "Mongoose",
+    "Java SE 8",
+    "Ejs",
+    "PostgreSQL",
+    "MongoDB Atlas",
+    "Firebase",
+    "OAuth2",
+    "MailChimp",
+    "Heroku",
+    "Netlify",
+    "Git/GitHub",
+    "Sass",
+    "Styled Components",
+    "RapidAPI",
+    "Tailwind CSS",
+    "Material UI", 
+    "Selenium"
+  ];
+
+
+  export default skillsSet;

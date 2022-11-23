@@ -5,8 +5,8 @@ import LiveSite from "../live-site/live-site.component.jsx";
 const LiveSiteGallery = ({ sitesData }) => {
   return (
     <div className="projects-section section-helper">
+      <h2 className="section-title">Projects</h2>
       <div className="gallery-container container">
-        <h2 className="section-title">Projects</h2>
         {sitesData.map((site) => (
           <LiveSite key={site.title} siteData={site} />
         ))}

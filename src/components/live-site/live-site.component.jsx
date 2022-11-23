@@ -9,7 +9,6 @@ const LiveSite = ({ siteData }) => {
       <div className="main-container">
       <h2 className="title title2">{title}</h2>
       <div className="live-site-container">
-        {/* <h2 className="title"> {title} </h2> */}
         <div className="image-container">
           <img src={image} />
         </div>

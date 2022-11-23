@@ -20,8 +20,15 @@
   line-height: 1.2;
 }
 
-span {
-  color: #364fc7;
+.intro-title {
+  text-shadow: 2px 2px 2px #adb5bd;
+}
+
+span:not(.not-important-text) {
+  text-shadow: none;
+  background: linear-gradient(103deg, rgba(54,79,199,1) 74%, rgba(0,255,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 br {
