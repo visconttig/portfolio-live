@@ -17,7 +17,8 @@
 }
 
 body {
-  color: #fcf7f8;
+  /* color: #fcf7f8; */
+  color: #212529; 
 }
 
 h1 {
