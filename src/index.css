@@ -8,8 +8,10 @@
   font-size: 10px;
 }
 
-.section {
+
+.section-helper {
   min-height: 100vh;
+  padding: 10.8rem 0;
 }
 
 .container {
@@ -17,7 +19,8 @@
 }
 
 body {
-  color: #fcf7f8;
+  color: #343a40;
+  /* color: red; */
 }
 
 h1 {

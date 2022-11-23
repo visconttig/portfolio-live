@@ -6,21 +6,26 @@
   width: 80vw;
   margin: 0 auto;
 
-  padding: 10vh 0;
+  // padding: 10vh 0;
 }
 
-.first-section {
-  background-color: #04030f;
+
+.intro-section {
+  background-color: #edf2ff;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+
+  letter-spacing: -2px;
+  line-height: 1.2;
 }
 
 span {
-  color: #00ffff;
+  color: #364fc7;  // ingigo 9*
 }
 
 br {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }

@@ -3,7 +3,7 @@ import "./intro.styles.scss";
 
 const Intro = () => {
   return (
-    <div className="first-section section">
+    <div className="intro-section section-helper">
       <div className="intro-container container">
         <h1 className="intro-title">
           Hi, my name is <span>Gerónimo Viscontti</span>
