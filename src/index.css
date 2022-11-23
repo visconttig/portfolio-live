@@ -10,11 +10,7 @@
 
 
 .section-helper {
-<<<<<<< HEAD
-  min-height: 100vh;
-=======
   min-height: calc(100vh + 10vh);
->>>>>>> temp-branch
   padding: 10.8rem 0;
 }
 
@@ -24,10 +20,6 @@
 
 body {
   color: #343a40;
-<<<<<<< HEAD
-  /* color: red; */
-=======
->>>>>>> temp-branch
 }
 
 h1 {
