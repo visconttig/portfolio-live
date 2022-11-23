@@ -6,42 +6,12 @@
   width: 80vw;
   margin: 0 auto;
 
-  padding: 10vh 0;
+  // padding: 10vh 0;
 }
 
 
-/* 
-TINT INDIGO 0        #edf2ff;
-
-SHADE INGIGO 9 ---PRIMARY---   #364fc7;
-
-
-
-
-
-GRAY TINT:                #1d1c27;
-GRAY COLOR:    0%         #04030f;
-
-GRAY 9                    #212529;
-
-
-
-ACCENT COLOR:             #00ffff;
-ACCENT SHADE:             #00cccc;
-
-
-
-*/
-
-.first-section {
-  // background-color: #04030f;
-  // background-color: #d0ebff;
-  // background-color: #e7f5ff;
+.intro-section {
   background-color: #edf2ff;
-  // color: #339af0;
-  // color: #04030f;
-  // color: #1d1c27;
-  color: #212529; // gray 9*
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -53,12 +23,9 @@ ACCENT SHADE:             #00cccc;
 }
 
 span {
-  // color: #00ffff;
-  // color: #1971c2;
-  // color: #00cccc;
   color: #364fc7;  // ingigo 9*
 }
 
 br {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }

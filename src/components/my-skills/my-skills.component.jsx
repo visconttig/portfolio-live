@@ -34,7 +34,7 @@ const skillSet = [
 
 const MySkills = () => {
   return (
-    <div className="skills-section section">
+    <div className="skills-section section-helper">
       <div className="skills-container container">
         <h2 className="skills-title">My Skills</h2>
         <ul className="skills-list">
