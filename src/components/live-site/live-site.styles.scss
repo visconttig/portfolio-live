@@ -11,11 +11,6 @@
     transition: scale 0.3s ease;
     scale: 101%;
 
-    // .title {
-    //   opacity: 1;
-    //   transition: opacity 1s ease;
-    // }
-
     .skills-row {
       opacity: 1;
       transition: opacity 1s ease;
@@ -27,9 +22,6 @@
     }
 
     .image-container {
-      // border: 3px solid yellow;
-      // border: 4px solid #00ffff;
-      // box-shadow: inset 0 0 0 4px yellow;
       transition: box-shadow 1s ease;
       box-shadow: 0 0 4px #ced4da;
     }
@@ -41,7 +33,6 @@
 }
 
 .main-container:last-child {
-  // border: 10px solid red;
   padding-bottom: 0;
 }
 
@@ -68,7 +59,6 @@
   position: static;
   display: flex;
   opacity: 1;
-  // color: #fff;
 }
 
 
@@ -76,9 +66,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
- // border: 4px solid #00ffff;
-  padding: 4.8rem;
+  padding: 3.2rem 4.8rem;
 }
 
 .skills-row {
@@ -107,10 +95,7 @@
   width: 48%;
   height: 15%;
   font-weight: bolder;
-  // background-color: #04030f;
-  // background-color: #364fc7;
   background-color: #00ffff;
-  // color: #00ffff;
   border: none;
   text-transform: uppercase;
 
@@ -127,10 +112,7 @@
   height: 100%;
 
   border: none;
-  // box-shadow: none;
   box-shadow: 0 0 2px #ced4da;
-  // transition: border 1s ease;
-  // transition: box-shadow 1s ease;
 }
 
 img {
@@ -157,27 +139,18 @@ img {
   text-decoration: none;
 }
 
-// check links styling order*
-// a:link {
-//   // color: rgb(144, 0, 255);
-//   text-decoration: none;
-// }
 
-// a:active {
-//   // color: rgb(85, 0, 128);
-// }
 
 a:visited {
   color: rgb(255, 255, 255);
-  // color: #00ffff;
 }
 
-// some spacing here:::
-div.gallery-container:last-of-type::after {
-  content: "";
-  height: 25vh;
-  width: 100%;
-}
+// // some spacing here:::
+// div.gallery-container:last-of-type::after {
+//   content: "";
+//   height: 25vh;
+//   width: 100%;
+// }
 
 @media screen and (max-width: 600px) {
   .live-site-container,
@@ -196,7 +169,6 @@ div.gallery-container:last-of-type::after {
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    // gap: 3vw;
   }
 
   .image-container {
@@ -213,7 +185,6 @@ div.gallery-container:last-of-type::after {
   .see-live-button {
     position: static;
     display: flex;
-    // background-color
     opacity: 1;
   }
 
