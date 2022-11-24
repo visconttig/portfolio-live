@@ -1,6 +1,6 @@
 import React from "react";
 import "./call-to-action.styles.scss";
-import contactImage from "../../assets/images/contact-image.png";
+// import contactImage from "../../assets/images/contact-image.png";
 
 const CallToAction = () => {
 
@@ -17,8 +17,8 @@ const CallToAction = () => {
                     <a href="mailto:visconttig@gmail.com" className="cta-button">Contact me</a>
                     </div>
                     <div className="cta-image-container">
-                        <img src={contactImage} alt="email logo" className="cta-image" />
-                        {/* <ContactImage className="cta-image" /> */}
+                        {/* <img src={contactImage} alt="email logo" className="cta-image" /> */}
+                        <img src={process.env.PUBLIC_URL + "/images/contact-image.png"} alt="" />
                     </div>
                 </div>
             </div>

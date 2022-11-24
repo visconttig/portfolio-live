@@ -10,7 +10,8 @@ const LiveSite = ({ siteData }) => {
       <h2 className="title title2">{title}</h2>
       <div className="live-site-container">
         <div className="image-container">
-          <img src={image} />
+          {/* <img src={image} /> */}
+          <img src={process.env.PUBLIC_URL + `${image}`} />
         </div>
         <div className="description-container">
           <p className="description"> {description} </p>
