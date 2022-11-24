@@ -14,12 +14,18 @@
   padding: 12.8rem 0;
 }
 
+
+
+
+
 .container {
   width: 80vw;
+  margin: 0 auto;
 }
 
 body {
-  color: #343a40;
+  /* color: #343a40; */
+  color: #495057;
 }
 
 h1 {

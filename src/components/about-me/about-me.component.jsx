@@ -7,7 +7,7 @@ const AboutMe = () => {
       <div className="about-me-container container">
         <h2 className="about-title">About me</h2>
         <p>
-        I'm a <strong>Full-Stack Web Developer</strong>, using technologies like <strong>Javascript (ES 6) Express, React, NodeJs, and databases</strong> (relational and not relational) like <strong>PostgreSql</strong>, <strong>MongoDb</strong> and Firestore (Firebase) among others.
+        I'm a <strong><span className="important">Full-Stack Web Developer</span></strong>, using technologies like <strong>Javascript (ES 6) Express, React, NodeJs, and databases</strong> (relational and not relational) like <strong>PostgreSql</strong>, <strong>MongoDb</strong> and Firestore (Firebase) among others.
           <span className="not-important-text">
           <br />
           Even though now I focus most of my time in web development, I started my programming journey with Java, and I'm still able to use it if I need it.

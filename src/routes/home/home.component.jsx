@@ -4,6 +4,7 @@ import LiveSiteGallery from "../../components/live-site-gallery/live-site-galler
 import Intro from "../../components/intro/intro.component.jsx";
 import AboutMe from "../../components/about-me/about-me.component.jsx";
 import MySkills from "../../components/my-skills/my-skills.component.jsx";
+import CallToAction from "../../components/call-to-action/call-to-action.component.jsx";
 
 const Home = () => {
   const data = SITES_DATA;
@@ -15,6 +16,7 @@ const Home = () => {
       <AboutMe />
       <MySkills />
       <LiveSiteGallery sitesData={data} />
+      <CallToAction />
     </div>
   );
 };

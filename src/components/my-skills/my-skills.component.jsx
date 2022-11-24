@@ -7,8 +7,8 @@ const MySkills = () => {
   
   return (
     <div className="skills-section section-helper">
-      <div className="skills-card">
-      <div className="skills-container container">
+      <div className="skills-card container">
+      <div className="skills-container">
         <h2 className="skills-title">My Skills</h2>
         <ul className="skills-list">
           {skillsData.map((skill) => (
