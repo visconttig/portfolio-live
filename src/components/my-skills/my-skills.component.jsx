@@ -6,13 +6,15 @@ const MySkills = () => {
   const skillsData = skillsSet;
   
   return (
-    <div className="skills-section section-helper">
+    <div id="skills" className="skills-section section-helper">
       <div className="skills-card container">
       <div className="skills-container">
         <h2 className="skills-title">My Skills</h2>
         <ul className="skills-list">
           {skillsData.map((skill) => (
-            <li> {skill} </li>
+            <li
+            className={skill.important ? "important" : "not-important"}
+            > {skill.name} </li>
           ))}
         </ul>
       </div>
