@@ -32,6 +32,7 @@
     { name: "Tailwind CSS" , important: false },
     { name: "Material UI", important: false } ,
     { name: "Selenium", important: true },
+    { name: "Microservices", important: true }
   ];
 
 

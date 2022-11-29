@@ -15,12 +15,6 @@
 }
 
 
-/* test space  */
-/* .call-to-action-section {
- margin-bottom: 500px; 
-} */
-
-
 
 
 
@@ -30,7 +24,6 @@
 }
 
 body {
-  /* color: #343a40; */
   color: #495057;
 }
 
@@ -61,7 +54,84 @@ div h3 {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 860px){
+ 
+  div.section-helper {
+    padding: 6.4rem 0;
+    min-height: 65vh;
+  }
+
+  // ***navigation***
+  .navigation-section .navigation-container {
+    padding: 1.6rem 2.4rem;
+    gap: 0.4rem;
+  }
+
+  .navigation-container .nav-links-container {
+    gap: 1.6rem;
+  }
+
+  a.home-link:link,
+  .home-link:visited {
+    font-size: 1.6rem;
+  }
+
+  a.nav-link:link,
+  nav-link:visited {
+    font-size: 1.2rem;
+    padding: 0 0.8rem;
+  }
+
+  a.get-in-touch-nav-link:link, a.get-in-touch-nav-link:visited {
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+  }
+
+
+  // ***about me***
+  .about-section .about-me-container {
+    width: 74vw;
+  }
+
+  div.cta-card {
+    padding: 0 0;
+  }
+
+  // ***projects***
+  .projects-section .description-container {
+    margin-bottom: 1.6rem;
+  }
+
+
+  // *** skills ***
+  div.skills-card {
+    padding: 6.4rem;
+  }
+
+  ul.skills-list {
+    gap: 0.4rem;
+  }
+
+  ul.skills-list li {
+    font-size: calc(1.4rem + 1vw);
+  }
+
+  // ***cta section***
+  a.cta-button:link,
+  .cta-button:visited {
+    font-size: 1.8rem;
+    padding: 0.8rem 1.6rem;
+  }
+
+  .call-to-action-section .cta-text-container {
+    gap: 1.6rem;
+  }
+
+
+}
+
+
+@media screen and (max-width: 1000px) {
   h1 {
     font-size: calc(3rem + 2.5vw);
   }
@@ -138,9 +208,9 @@ div h3 {
 /* ************* new ************** */
 @media (max-width: 1100px){
 
-  :root {
-    font-size: 9px;
-  }
+  // :root {
+  //   font-size: 9px;
+  // }
 
   .section-helper {
     padding: 9.6rem 0;
@@ -161,3 +231,33 @@ div h3 {
     font-size: 8rem;
   }
 } */
+
+// ********* hover animations ****************
+@media screen and (min-width: 800px){
+
+  // .live-site-container
+  .main-container
+   {
+  &:hover {
+    transition: scale 0.3s ease;
+    scale: 100%;
+
+    .skills-row {
+      opacity: 1;
+      transition: opacity 1s ease;
+    }
+
+    .see-live-button {
+      opacity: 1;
+      transition: opacity 1s;
+      box-shadow: 0 0 12px #00ffff;
+    }
+
+    .image-container {
+      transition: box-shadow, opacity 1s ease;
+      box-shadow: 0 0 4px #ced4da;
+      opacity: 0.8;
+    }
+  }
+}
+}
