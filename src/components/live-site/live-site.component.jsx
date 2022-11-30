@@ -12,6 +12,11 @@ const LiveSite = ({ siteData }) => {
         <div className="image-container">
           {/* <img src={image} /> */}
           <img src={process.env.PUBLIC_URL + `${image}`} />
+          <button className="see-live-button">
+          <a target="_blank" rel="noopener noreferrer" href={siteUrl}>
+            SEE LIVE
+          </a>
+        </button>
         </div>
         <div className="description-container">
           <p className="description"> {description} </p>
@@ -23,11 +28,11 @@ const LiveSite = ({ siteData }) => {
             ))}
           </div>
         </div>
-        <button className="see-live-button">
+        {/* <button className="see-live-button">
           <a target="_blank" rel="noopener noreferrer" href={siteUrl}>
             SEE LIVE
           </a>
-        </button>
+        </button> */}
       </div>
       </div>
     </>

@@ -5,6 +5,7 @@
   scale: none;
   transition: scale 1s ease;
   position: relative;
+  gap: 4.8rem;
 }
 
 
@@ -97,6 +98,8 @@
   box-shadow: 0 0 2px #ced4da;
   border-radius: 24px;
   overflow: hidden;
+
+  position: relative;
 }
 
 img {
