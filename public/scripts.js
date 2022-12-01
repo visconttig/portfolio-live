@@ -3,10 +3,19 @@ document.onreadystatechange = () => {
 
     const mobileButton = document.querySelector("#mobile-button");
     const navigationSection = document.querySelector(".navigation-section");
+    const navLinks = document.querySelectorAll("a.nav-link");
+    console.log(navLinks);
 
     mobileButton.addEventListener("click", () => {
         navigationSection.classList.toggle("mobile-navigation-open");
     });
+
+    navLinks.forEach((nav) => {
+        nav.addEventListener("click", () => {
+            console.log("clicked");
+            navigationSection.classList.remove("mobile-navigation-open");
+        });
+    })
 
     };
 }
