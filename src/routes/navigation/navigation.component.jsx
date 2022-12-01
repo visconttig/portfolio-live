@@ -20,6 +20,11 @@ const NavigationBar = () => {
             <div className="cta-nav-link-container">
                 <a target="_blank" rel="noopener noreferrer" href="mailto:visconttig@gmail.com?subject=Full-Stack%20[ACTION REQUIRED]&body=Hi%20Geronimo!%20I%20found%20your%20profile%20interesting%20and..." className="get-in-touch-nav-link">Get in touch</a>
             </div>
+
+            <button id="mobile-button" className="mobile-menu-button open-menu-button">
+            <ion-icon id="open-menu-icon" className="open-menu-icon" name="menu-outline"></ion-icon>
+            <ion-icon id="close-menu-icon" name="close-outline"></ion-icon>
+            </button>
             </div>
         </div>
     );
