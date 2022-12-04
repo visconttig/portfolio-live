@@ -75,6 +75,15 @@
 
     }
 
+
+    // ************************* about me section **********************
+    #about {
+
+      .about-me-container {
+        width: 80vw;
+      }
+    }
+
     // ********************** skills section *************************
 
     #skills {
@@ -101,7 +110,7 @@
     #contact {
 
         .cta-card {
-          padding: 0 0;
+          padding: 0 1.6rem;
         }
 
 
@@ -114,6 +123,12 @@
   
           .cta-text-container {
             width: 100%;
+            align-items: center;
+            // align-items: center;
+
+              .cta-button:link, .cta-button:visited {
+                max-width: fit-content;
+              }
           }
   
           .cta-image-container {
