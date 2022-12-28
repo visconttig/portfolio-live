@@ -6,6 +6,7 @@ import AboutMe from "../../components/about-me/about-me.component.jsx";
 import MySkills from "../../components/my-skills/my-skills.component.jsx";
 import CallToAction from "../../components/call-to-action/call-to-action.component.jsx";
 import NavigationBar from "../navigation/navigation.component.jsx";
+import Footer from "../../components/footer/footer.component.jsx";
 
 const Home = () => {
   const data = SITES_DATA;
@@ -19,6 +20,7 @@ const Home = () => {
       <MySkills />
       <LiveSiteGallery sitesData={data} />
       <CallToAction />
+      <Footer />
     </div>
   );
 };
