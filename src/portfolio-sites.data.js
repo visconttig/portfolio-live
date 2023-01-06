@@ -6,13 +6,13 @@ const SITES_DATA = [
     skills: ["React", "APIs", "CSS-Flexbox", "Tailwind CSS", "Axios"],
     siteUrl: "https://candid-banoffee-cf5b5e.netlify.app/"
 },
-// {
-//     title: "Spotify Clone",
-//     image: "/images/spotify-clone.jpg",
-//     description: "A spotify-like web app, with custom search, geolocation and more. **Not available at the moment** (Api calls quota exceeded in testing phase).",
-//     skills: ["React", "APIs", "Redux", "Axios"],
-//     siteUrl: "https://lively-pothos-f99b3f.netlify.app/"
-// },
+{
+    title: "Spotify Clone",
+    image: "/images/spotify-clone.jpg",
+    description: "A spotify-like web app, with custom search, geolocation and more.",
+    skills: ["React", "APIs", "Redux", "Axios"],
+    siteUrl: "https://lively-pothos-f99b3f.netlify.app/"
+},
 {
     title: "Crown Clothing",
     image: "/images/crwn-clothing.png",
