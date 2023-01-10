@@ -2,6 +2,7 @@
 const skillsSet = [
   { name: "Javascript", important: true },
   { name: "React", important: true },
+  { name: "Redux", important: true },
   { name: "Node.js", important: true },
   { name: "Express.js", important: true },
   { name: "CSS 3", important: true },
@@ -22,6 +23,8 @@ const skillsSet = [
   { name: "MongoDB Atlas", important: false },
   { name: "Firebase", important: true },
   { name: "OAuth2", important: false },
+  { name: "Fetch API", important: true },
+  { name: "Axios", important: true },
   { name: "MailChimp", important: false },
   { name: "Heroku", important: false },
   { name: "Netlify", important: false },
@@ -29,12 +32,15 @@ const skillsSet = [
   { name: "Sass", important: true },
   { name: "Styled Components", important: false },
   { name: "RapidAPI", important: false },
+  { name: "Agile (Scrum, Kanban)", important: true},
   { name: "Tailwind CSS", important: false },
   { name: "Material UI", important: false },
   { name: "Selenium", important: true },
   { name: "Docker", important: true },
+  { name: "Kubernetes", important: true },
   { name: "RabbitMQ", important: true },
-  { name: "Jira", important: false }
+  { name: "Figma", important: true },
+  { name: "Jira", important: true }
 ];
 
 

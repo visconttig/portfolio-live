@@ -10,9 +10,9 @@ const AboutMe = () => {
         I'm a <strong><span className="important">Full-Stack Web Developer</span></strong>, using technologies like <strong>Javascript (ES 6) Express, React, NodeJs, and databases</strong> (relational and not relational) like <strong>PostgreSql</strong>, <strong>MongoDb</strong> and Firestore (Firebase) among others.
           <span className="not-important-text">
           <br />
-          Even though now I focus most of my time in web development, I started my programming journey with Java, and I'm still able to use it if I need it.
+          Even though now I focus most of my time in the MERN Stack, I started my programming journey with Java.
           <br />
-A few years ago I'd been seriously studying Java Programming, including some of the new up-to-date topics like Lambda, Advanced Generics (JDK 8) , Modules (JDK 9) and other topics introduced in JDK 11 (Trough Oracle Univerity). 
+A few years ago I'd been seriously studying Java, including some of the new up-to-date topics like Lambda, Advanced Generics (JDK 8) , Modules (JDK 9) and other topics introduced in JDK 11 (Trough Oracle Univerity). 
           </span>
         </p>
       </div>
