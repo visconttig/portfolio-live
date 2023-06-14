@@ -1,0 +1,32 @@
+
+
+.space-section {
+    background-color: #f8f9fa;
+    min-height: 16rem;
+}
+
+.footer-container {
+    min-height: 12rem;
+    background-color: #edf2ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-links-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+}
+
+
+a:link, a:visited {
+    text-decoration: none;
+    font-size: 2rem;
+    opacity: 0.6;
+    color: #242424;
+}
