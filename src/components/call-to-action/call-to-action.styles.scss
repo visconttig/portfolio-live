@@ -1,9 +1,9 @@
-
+@import "../../App.scss";
 
 .call-to-action-section {
-    background-color: #364fc7;
-    background: linear-gradient(103deg, rgba(54,79,199,1) 74%, rgba(0,255,255,1) 100%);
-    box-shadow: 0 0 24px #adb5bd;
+    background-color: $accent-color;
+    background: $main-gradient;
+    box-shadow: 0 0 24px $shadow-color;
 }
 
 .cta-card {
@@ -12,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 4.8rem;
-    color: #edf2ff;
+    color: $gallery-background;
     border-radius: 24px;
     flex-wrap: wrap;
 }
@@ -43,7 +43,6 @@
 .cta-image-container {
     width: 40%;
     border-radius: 24px;
-    border: 2px solid lightgray;
     border: none;
     background-color: transparent;
     overflow: hidden;
@@ -75,8 +74,7 @@
     border: none;
     border-radius: 24px;
     font-size: 2.4rem;
-    box-shadow: 0 0 12px #edf2ff;
-    color: #212529;
+    box-shadow: 0 0 12px $gallery-background;
 }
 
 

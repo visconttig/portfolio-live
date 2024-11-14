@@ -1,17 +1,26 @@
-
-
-// .space-section {
-//     background-color: #f8f9fa;
-//     min-height: 16rem;
-// }
+@import "../../App.scss";
 
 .footer-container {
     min-height: 12rem;
-    background-color: #edf2ff;
+    background-color: $gallery-background;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+
+    #attributions {
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    color: $secondary-button-background;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 2rem;
+    min-width: 25%;
 }
 
 .footer-links-container {
@@ -20,12 +29,10 @@
     flex-direction: row;
     justify-content: center;
     gap: 6rem;
-}
 
-
-a:link, a:visited {
-    text-decoration: none;
-    font-size: 2rem;
-    opacity: 0.6;
-    color: #242424;
+    a {
+        font-size: 1.6rem;
+        opacity: 0.6;
+        letter-spacing: 1.2px;
+    }
 }

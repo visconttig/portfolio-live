@@ -1,3 +1,5 @@
+@import "../../App.scss";
+
 .intro-container {
   display: flex;
   flex-direction: column;
@@ -9,7 +11,7 @@
 
 
 .intro-section {
-  background-color: #edf2ff;
+  background-color: $gallery-background;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -19,12 +21,12 @@
 }
 
 .intro-title {
-  text-shadow: 2px 2px 2px #adb5bd;
+  text-shadow: 2px 2px 2px $shadow-color;
 }
 
-span:not(.not-important-text) {
+span:not(.not-important-text, div#attributions span) {
   text-shadow: none;
-  background: linear-gradient(103deg, rgba(54,79,199,1) 74%, rgba(0,255,255,1) 100%);
+  background: $main-gradient;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

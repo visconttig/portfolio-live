@@ -1,3 +1,19 @@
+@import "App.scss";
+
+@media screen and (max-width: 480px) {
+
+  /* ********************* Live / GitHub buttons ************ */
+
+  .live-site-container button.github-button {
+    display: none;
+  }
+
+  div.buttons-container {
+    bottom: 0;
+  }
+}
+
+
 @media screen and (max-width: 800px) {
   .container {
     width: 94vw;
@@ -18,7 +34,7 @@
     transform: translateX();
     transition: all 0.5s ease-in;
 
-    background-color: #edf2ff;
+    background-color: $gallery-background;
     position: absolute;
     top: 0;
     right: -100%;
@@ -32,26 +48,26 @@
 
     .nav-link:link,
     .nav-link:visited {
-      font-size: 3.2rem;
-      color: #495057;
+      font-size: 2.2rem;
+      color: $mobile-button-color;
     }
   }
 
   button#mobile-button.mobile-menu-button {
     display: flex;
+    position: absolute;
+    top: 1.4rem;
+    right: 3rem;
+    font-size: 4rem;
+    color: $mobile-button-color;
   }
 
   .mobile-navigation-open {
     button.mobile-menu-button #open-menu-icon {
-      position: absolute;
-      top: 3rem;
-      right: 3rem;
-      font-size: 6.2rem;
       background: none;
       border: none;
       display: flex !important;
       z-index: 999;
-      color: #495057;
     }
 
     .navigation-container {
@@ -65,7 +81,6 @@
       visibility: visible;
       top: 0;
       right: 0;
-
       overflow: hidden;
     }
   }
@@ -170,10 +185,8 @@
   .live-site-container .see-live-button {
     display: flex;
     opacity: 1;
-    position: absolute;
     padding: 0.8rem 0.4rem;
     min-width: 160px;
-    font-size: 1.2rem;
   }
 
   .description-container .skills-row {
@@ -246,7 +259,7 @@
 
       .image-container {
         transition: box-shadow 1s ease;
-        box-shadow: 4px 4px 4px #364FC7;
+        box-shadow: 4px 4px 4px $accent-color;
       }
     }
   }

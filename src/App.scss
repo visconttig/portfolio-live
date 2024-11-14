@@ -1,0 +1,25 @@
+$shadow-color: #adb5bd;
+$accent-color: #364fc7;
+$secondary-button-background: rgb(175, 169, 169);
+$mobile-button-color: #495057;
+$main-background: #f8f9fa;
+$gallery-background: #edf2ff;
+$main-gradient: linear-gradient(103deg, rgba(54,79,199,1) 74%, rgba(0,255,255,1) 100%);
+$solid-black: rgb(0, 0, 0);
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: $solid-black;
+}
+
+
+a:active {
+    color: $gallery-background;
+    text-decoration: none;
+  }
+  

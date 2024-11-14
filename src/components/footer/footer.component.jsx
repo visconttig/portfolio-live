@@ -14,6 +14,10 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/visconttig/" target="_blank" rel="noopener noreferrer">Linkedin</a>
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/visconttig">GitHub</a>
             </div>
+            <div id="attributions">
+            <span>Icons by: --- </span>
+            <span>Contact image by: --- </span>
+            </div>
         </div>
        </>
     );

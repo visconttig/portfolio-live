@@ -1,3 +1,5 @@
+@import "../../App.scss";
+
 .live-site-container {
   display: flex;
   flex-direction: column;
@@ -7,7 +9,34 @@
   position: relative;
   gap: 4.8rem;
 
-  // overflow: hidden;
+
+   button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 25vw;
+    height: calc(1rem + 3vw);
+    font-weight: bold;
+    border: none;
+    font-style: italic;
+    letter-spacing: 0.2rem;
+    transition: opacity, box-shadow 1s ease;
+    opacity: 0;
+    border-radius: 24px;
+    box-shadow: 0 0 0.6rem $shadow-color;
+    font-family: inherit;
+    position: static; 
+
+    font-size: 1.6rem;
+   }
+
+   .see-live-button {
+    background: $main-gradient;
+   }
+   
+   .github-button {
+    background: $secondary-button-background;
+   }
 }
 
 .main-container {
@@ -15,12 +44,12 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 4.8rem;
-  background-color: #edf2ff;
+  background-color: $gallery-background;
   border-radius: 24px;
-  box-shadow: 0 0 6px #adb5bd;
+  box-shadow: 0 0 6px $shadow-color;
 
   &:hover {
-    box-shadow: 0 0 1.2rem #adb5bd;
+    box-shadow: 0 0 1.2rem $shadow-color;
   }
 }
 
@@ -54,30 +83,6 @@
   padding-right: 1rem;
 }
 
-.see-live-button {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: relative;
-  width: 25vw;
-  height: calc(1rem + 3vw);
-  font-weight: bold;
-  background-color: #364fc7;
-  border: none;
-  font-style: italic;
-  letter-spacing: 0.2rem;
-
-  transition: opacity, box-shadow 1s ease;
-  opacity: 0;
-  border-radius: 24px;
-  box-shadow: 0 0 0.6rem #adb5bd;
-  font-size: 1rem;
-  font-family: inherit;
-}
-
-.github-button {
- background-color: rgb(175, 169, 169);
-}
 
 .buttons-container {
   display: flex;
@@ -98,7 +103,7 @@
   width: 100%;
 
   border: none;
-  box-shadow: 0 0 0.2rem #ced4da;
+  box-shadow: 0 0 0.2rem $shadow-color;
   border-radius: 24px;
   overflow: hidden;
 
@@ -122,12 +127,3 @@ img {
   gap: 3vw;
 }
 
-.see-live-button a:link,
-.see-live-button a:active {
-  color: #edf2ff;
-  text-decoration: none;
-}
-
-a:visited {
-  color: rgb(255, 255, 255);
-}
