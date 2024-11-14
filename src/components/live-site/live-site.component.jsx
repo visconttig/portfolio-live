@@ -2,7 +2,7 @@ import React from "react";
 import "./live-site.styles.scss";
 
 const LiveSite = ({ siteData }) => {
-  const { title, description, skills, image, siteUrl } = siteData;
+  const { title, description, skills, image, siteUrl, githubUrl } = siteData;
 
   return (
     <>
@@ -10,16 +10,20 @@ const LiveSite = ({ siteData }) => {
         <h2 className="title title2">{title}</h2>
         <div className="live-site-container">
           <div className="image-container">
-            {/* <img src={image} /> */}
             <img
               src={process.env.PUBLIC_URL + `${image}`}
               alt="Portfolio website"
             />
+            <div className="buttons-container">
+            <button className="see-live-button github-button">
+              <a target="_blank" rel="noopener noreferrer" href={githubUrl}>See on GitHub</a>
+            </button>
             <button className="see-live-button">
               <a target="_blank" rel="noopener noreferrer" href={siteUrl}>
-                SEE LIVE
+                See Live
               </a>
             </button>
+            </div>
           </div>
           <div className="description-container">
             <p className="description"> {description} </p>
@@ -31,11 +35,6 @@ const LiveSite = ({ siteData }) => {
               ))}
             </div>
           </div>
-          {/* <button className="see-live-button">
-          <a target="_blank" rel="noopener noreferrer" href={siteUrl}>
-            SEE LIVE
-          </a>
-        </button> */}
         </div>
       </div>
     </>

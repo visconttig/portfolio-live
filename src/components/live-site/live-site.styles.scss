@@ -6,6 +6,8 @@
   transition: scale 1s ease;
   position: relative;
   gap: 4.8rem;
+
+  // overflow: hidden;
 }
 
 .main-container {
@@ -56,15 +58,12 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  position: absolute;
-  margin-bottom: 0.8rem;
-  bottom: 1rem;
+  position: relative;
   width: 25vw;
   height: calc(1rem + 3vw);
   font-weight: bold;
   background-color: #364fc7;
   border: none;
-  text-transform: uppercase;
   font-style: italic;
   letter-spacing: 0.2rem;
 
@@ -72,7 +71,23 @@
   opacity: 0;
   border-radius: 24px;
   box-shadow: 0 0 0.6rem #adb5bd;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.github-button {
+ background-color: rgb(175, 169, 169);
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 1rem;
+  margin: 0.8rem 0;
+  min-width: 90%;
+  
 }
 
 .image-container {
