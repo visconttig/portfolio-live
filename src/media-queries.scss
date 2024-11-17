@@ -57,15 +57,10 @@
 
   button#mobile-button.mobile-menu-button {
     display: flex;
-    position: absolute;
-    top: 1.4rem;
-    right: 3rem;
-    font-size: 4rem;
-    color: $mobile-button-color;
   }
 
   .mobile-navigation-open {
-    button.mobile-menu-button #open-menu-icon {
+    button.mobile-menu-button .open-menu-button {
       background: none;
       border: none;
       display: flex !important;

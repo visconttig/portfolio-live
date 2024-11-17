@@ -6,6 +6,22 @@ $main-background: #f8f9fa;
 $gallery-background: #edf2ff;
 $main-gradient: linear-gradient(103deg, rgba(54,79,199,1) 74%, rgba(0,255,255,1) 100%);
 $solid-black: rgb(0, 0, 0);
+$visited-color: rgb(166, 0, 255);
+
+
+body.disabled-scroll {
+    overflow: hidden;
+    position: fixed;
+}
+
+
+button#mobile-button {
+color: $mobile-button-color;
+}
+
+button#mobile-button.decreased-opacity {
+    opacity: 0.3;
+}
 
 
 a:link {
