@@ -13,6 +13,7 @@ const MySkills = () => {
         <ul className="skills-list">
           {skillsData.map((skill) => (
             <li
+            key={skill.name}
             className={skill.important ? "important" : "not-important"}
             > {skill.name} </li>
           ))}

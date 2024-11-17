@@ -35,7 +35,7 @@ const LiveSite = ({ siteData }) => {
             <p className="description"> {description} </p>
             <div className="skills-row">
               {skills.map((skill) => (
-                <ul>
+                <ul key={skill}>
                   <li className="skill"> {skill} </li>
                 </ul>
               ))}

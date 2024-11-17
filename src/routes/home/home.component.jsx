@@ -10,7 +10,6 @@ import Footer from "../../components/footer/footer.component.jsx";
 
 const Home = () => {
   const data = SITES_DATA;
-  console.log(data);
 
   return (
     <div className="home-container">
