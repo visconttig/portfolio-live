@@ -2,7 +2,13 @@ import React from "react";
 import "./live-site.styles.scss";
 
 const LiveSite = ({ siteData }) => {
-  const { title, description, skills, image, siteUrl, githubUrl } = siteData;
+  const { title, 
+    description, 
+    skills, 
+    image, 
+    siteUrl, 
+    githubUrl,
+    isLive } = siteData;
 
   return (
     <>
@@ -18,11 +24,11 @@ const LiveSite = ({ siteData }) => {
             <button className="see-live-button github-button">
               <a target="_blank" rel="noopener noreferrer" href={githubUrl}>See on GitHub</a>
             </button>
-            <button className="see-live-button">
+            { isLive && (<button className="see-live-button">
               <a target="_blank" rel="noopener noreferrer" href={siteUrl}>
                 See Live
               </a>
-            </button>
+            </button>)}
             </div>
           </div>
           <div className="description-container">
