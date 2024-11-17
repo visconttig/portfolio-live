@@ -4,9 +4,11 @@
 
   /* ********************* Live / GitHub buttons ************ */
 
-  .live-site-container button.github-button {
+  .gallery-container div.main-container:not(:nth-of-type(3)) button[class*="github"] {
     display: none;
   }
+
+
 
   div.buttons-container {
     bottom: 0;
