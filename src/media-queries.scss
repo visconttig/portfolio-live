@@ -22,18 +22,15 @@
   }
 
   // ******************** navigation section ***********************
-  .navigation-section .nav-links-container,
+  #navigation-container,
   .navigation-section .cta-nav-link-container {
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
+    display: none !important;
   }
 
-  .navigation-section .nav-links-container {
+  .navigation-section #navigation-container-mobile {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
-    transform: translateX();
     transition: all 0.5s ease-in;
 
     background-color: $gallery-background;
@@ -72,7 +69,7 @@
       margin: 0 auto;
     }
 
-    .nav-links-container {
+    #navigation-container-mobile {
       opacity: 1;
       pointer-events: auto;
       visibility: visible;

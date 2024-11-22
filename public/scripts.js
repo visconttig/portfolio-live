@@ -11,7 +11,6 @@ document.onreadystatechange = () => {
 
     navLinks.forEach((nav) => {
         nav.addEventListener("click", () => {
-            console.log("clicked");
             navigationSection.classList.remove("mobile-navigation-open");
         });
     })
