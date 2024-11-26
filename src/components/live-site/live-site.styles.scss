@@ -33,10 +33,12 @@
    .see-live-button {
     background: $main-gradient;
    }
-   
-   .github-button {
-    background: $secondary-button-background;
+
+          //  disabled buttons 
+   .see-live-button:not(.github-button) {
+    display: none;
    }
+   
 }
 
 .main-container {
@@ -91,8 +93,7 @@
   position: absolute;
   bottom: 1rem;
   margin: 0.8rem 0;
-  min-width: 90%;
-  
+  min-width: 90%;  
 }
 
 .image-container {
