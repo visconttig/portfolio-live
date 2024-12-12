@@ -45,7 +45,7 @@ const NavigationBar = () => {
             <a href="#contact" className="projects-nav nav-link" >Contact me</a>
             </div>
             <div className="cta-nav-link-container">
-                <a target="_blank" rel="noopener noreferrer" href="mailto:visconttig@gmail.com?subject=Full-Stack%20[ACTION REQUIRED]&body=Hi%20Geronimo!%20I%20found%20your%20profile%20interesting%20and..." className="get-in-touch-nav-link">Get in touch</a>
+                <a href="#contact" className="get-in-touch-nav-link">Get in touch</a>
             </div>
 
             <button id="mobile-button" 
