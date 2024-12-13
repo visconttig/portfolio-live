@@ -1,9 +1,18 @@
 const SITES_DATA = [
 {
+    title: "This site! ;)",
+    image: "/images/generic-project.jpg",
+    description: "This is not just another pre-build template... it's a fully responsive React website built from scratch using React Hooks, Sass...",
+    skills: ["React", "CSS-Flexbox", "Sass", "React Hooks", "..."],
+    siteUrl: "N/A",
+    githubUrl: "https://github.com/visconttig/portfolio-live",
+    isLive: false
+},
+{
     title: "Crown Clothing",
     image: "/images/crwn-clothing.jpg",
-    description: "An e-shop web application with databases, user authentication and more.",
-    skills: ["React", "Firebase OAuth", "Firestore", "CSS-Flexbox", "Sass", "CSS", "Javascript"],
+    description: "An e-shop web application with databases, user authentication...",
+    skills: ["React", "Firebase OAuth", "Firestore", "CSS-Flexbox", "Sass", "CSS", "Javascript", "..."],
     siteUrl: "https://glittering-dieffenbachia-cada1a.netlify.app/",
     githubUrl: "https://github.com/visconttig/crwn-clothing",
     isLive: true
@@ -11,8 +20,8 @@ const SITES_DATA = [
 {
     title: "Youtube Clone",
     image: "/images/portfolio-image.jpg",
-    description: "A Youtube clone web app, with API calls, custom search, and more.",
-    skills: ["React", "APIs", "CSS-Flexbox", "Tailwind CSS", "Axios"],
+    description: "A Youtube clone web app, with API calls, custom search...",
+    skills: ["React", "APIs", "CSS-Flexbox", "Tailwind CSS", "Axios", "..."],
     siteUrl: "https://candid-banoffee-cf5b5e.netlify.app/",
     githubUrl: "https://github.com/visconttig/youtube_clone",
     isLive: true
@@ -20,8 +29,8 @@ const SITES_DATA = [
 {
     title: "Spotify Clone",
     image: "/images/spotify-clone.jpg",
-    description: "A spotify-like web app, with custom search, geolocation and more.",
-    skills: ["React", "APIs", "Redux", "Axios"],
+    description: "A spotify-like web app, with custom search, geolocation...",
+    skills: ["React", "APIs", "Redux", "Axios", "..."],
     siteUrl: "https://lively-pothos-f99b3f.netlify.app/",
     githubUrl: "https://github.com/visconttig/spotify-clone",
     isLive: false
@@ -43,6 +52,15 @@ const SITES_DATA = [
     siteUrl: "https://glittery-liger-f35185.netlify.app/",
     githubUrl: "https://github.com/visconttig/TinDog",
     isLive: true
+},
+{
+    title: "Selenium Testing",
+    image: "/images/generic-project.jpg",
+    description: "Automated Testing Suite for a specific web application.",
+    skills: ["Java ES8", "Selenium WebDriver, ..."],
+    siteUrl: "N/A",
+    githubUrl: "https://github.com/visconttig/Selenium-Testing2",
+    isLive: false
 }
 ];
 
