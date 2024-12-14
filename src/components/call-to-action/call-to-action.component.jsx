@@ -1,6 +1,5 @@
 import React from "react";
 import "./call-to-action.styles.scss";
-import HubspotContactForm from "./HubspotContactForm";
 
 const CallToAction = () => {
 
@@ -15,9 +14,8 @@ const CallToAction = () => {
                             <p>I'm hard-working, coachable and if I don't know something I promiss you what I can learn it (And I'll do it). </p>
                             </div>
                             
-                            <HubspotContactForm
-                            portalId="48516265"
-                            formId="9f9ce74c-5433-4b7c-aa53-f664264de485" />
+                            <a href="mailto:visconttig@gmail.com?subject=Full-Stack%20[ACTION REQUIRED]&body=Hi%20Geronimo!%20I%20found%20your%20profile%20interesting%20and..." className="cta-button"
+                            target="_blank" rel="noopener noreferrer">Contact me</a>
                         </div>
                         <div className="cta-image-container">
                             <img src={process.env.PUBLIC_URL + "/images/contact-image.png"} alt="contact, phone and email icons" />
