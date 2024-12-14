@@ -7,6 +7,7 @@ import MySkills from "../../components/my-skills/my-skills.component.jsx";
 import CallToAction from "../../components/call-to-action/call-to-action.component.jsx";
 import NavigationBar from "../navigation/navigation.component.jsx";
 import Footer from "../../components/footer/footer.component.jsx";
+import { GoToTopButton } from "../../components/go-to-top-button/go-to-top-button.component.jsx";
 
 const Home = () => {
   const data = SITES_DATA;
@@ -20,6 +21,7 @@ const Home = () => {
       <LiveSiteGallery sitesData={data} />
       <CallToAction />
       <Footer />
+      <GoToTopButton />
     </div>
   );
 };

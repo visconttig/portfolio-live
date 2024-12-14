@@ -27,7 +27,7 @@ const NavigationBar = () => {
 
 
     return (
-        <div className="navigation-section">
+        <div className="navigation-section" id="top" >
             <div className="navigation-container">
             <div className="home-link-container">
                 <a className="home-link" href="/">Geronimo <br /> Viscontti</a>
