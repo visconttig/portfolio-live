@@ -7,8 +7,10 @@ import "../../routes/navigation/navigation.component.jsx";
 export const GoToTopButton = () => {
 
 useEffect(() => {
-
+    let timeOut;
     window.addEventListener("scroll", () => {
+        clearTimeout(timeOut);
+
         if(window.scrollY >= 1000){
             showGoToTopButton();
         } else {
@@ -17,7 +19,7 @@ useEffect(() => {
     });
     
     window.addEventListener("scrollend", () => {
-        const timeOut = setTimeout(() => {
+        timeOut = setTimeout(() => {
             hideGoToTopButton();
         }, 3000);
     });
@@ -40,12 +42,12 @@ const hideGoToTopButton = () => {
 };
 
 const gotToTop = (evt) => {
-    // evt.preventDefault();
-    // evt.stopPropagation();
-    // document.body.scrollTop = 0;
+    evt.preventDefault();
+    evt.stopPropagation();
+    window.scrollTo(0, 0);
 }
 
     return (
-        <a id="go-to-top" href="top" onClick={(evt) => gotToTop(evt) }>^</a>
+        <button id="go-to-top" onClick={(evt) => gotToTop(evt) }>^</button>
     );
 };

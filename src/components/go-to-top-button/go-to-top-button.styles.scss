@@ -5,16 +5,16 @@
     position: fixed;
     right: -100%;
     bottom: 24px;
-    font-size: 6rem;
+    font-size: 4rem;
     border: none;
     background-color: inherit;
     color: $accent-color;
 
     display: none;
+    opacity: 0.6;
 }
 
 #go-to-top.gtt-visible {
-    // border: 5px dashed blue;
     right: 8px;
     display: inline;
 }
