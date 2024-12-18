@@ -26,12 +26,11 @@
     box-shadow: 0 0 0.6rem $shadow-color;
     font-family: inherit;
     position: static; 
-
     font-size: 1.6rem;
    }
 
    .see-live-button {
-    background: $main-gradient;
+    background: $gallery-background !important;
    }
 
           //  disabled buttons 

@@ -5,8 +5,7 @@ $mobile-button-color: #495057;
 $main-background: #f8f9fa;
 $gallery-background: #edf2ff;
 $main-gradient: linear-gradient(103deg, rgba(54,79,199,1) 74%, rgba(0,255,255,1) 100%);
-$solid-black: rgb(0, 0, 0);
-$visited-color: rgb(166, 0, 255);
+$visited-color: rgb(21, 0, 255);
 
 
 body.disabled-scroll {
@@ -26,11 +25,12 @@ button#mobile-button.decreased-opacity {
 
 a:link {
     text-decoration: none;
+    color: $accent-color;
 }
 
 a:visited {
     text-decoration: none;
-    color: $solid-black;
+    color: $visited-color;
 }
 
 
