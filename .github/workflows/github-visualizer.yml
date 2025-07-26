@@ -9,6 +9,9 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      - name: Create Output Directory
+        run: mkdir -p images
+
       - name: Build Diagram
         uses: githubocto/repo-visualizer@0.7.1
         with:
