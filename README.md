@@ -42,7 +42,7 @@ portfolio-live/
 
 ## Diagram visualization
 
-![Visualization of the codebase](./diagram.svg)
+![Visualization of the codebase](./images/diagram.svg)
 
 ## 🧠 Lessons Learned
 
