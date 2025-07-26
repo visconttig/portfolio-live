@@ -10,9 +10,9 @@ jobs:
    
     steps:
       - name: Checkout Code
-        uses: action/checkout@4.22
+        uses: actions/checkout@4.22
 
       - name: Build Diagram
-        uses: action/repo-visualizer@0.9.1
+        uses: actions/repo-visualizer@0.9.1
         
       
