@@ -1,18 +1,13 @@
 name: Github Visualizer
-on: 
-  push:
-     branches:
-       - main
+on: push
 
 jobs:
-  BuildDiagram: 
+  BuildDiagram:
     runs-on: ubuntu-latest
-   
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@4.22
 
       - name: Build Diagram
         uses: actions/repo-visualizer@0.9.1
-        
-      

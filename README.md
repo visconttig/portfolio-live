@@ -39,6 +39,11 @@ portfolio-live/
 └── README.md
 ```
 
+
+## Diagram visualization
+
+![Visualization of the codebase](./diagram.svg)
+
 ## 🧠 Lessons Learned
 
 - Building a portfolio from scratch teaches you more than any tutorial ever could.
